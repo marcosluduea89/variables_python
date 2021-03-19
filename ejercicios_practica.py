@@ -45,7 +45,7 @@ def ej2():
     numero_2 = int(input())
 
     # Alumno: Imprima en pantalla los dos números decimales solicitados
-    # print(....)
+    print(numero_1, numero_2)
 
     # Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
     # numero_1, numero_2
@@ -54,12 +54,20 @@ def ej2():
     # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
     # Suma
+    suma = numero_1 + numero_2
+    print( "el resultado de sumar {} y {} es {} ".format(numero_1 , numero_2, suma))
 
     # Resta
-
+    resta = numero_1 - numero_2
+    print("el resultado de restasr {} y {} es {} ".format(numero_1 , numero_2, resta))
+    
     # División
+    division = numero_1 / numero_2
+    print("el resultado de restasr {} y {} es {} ".format(numero_1 , numero_2, division))
 
     # Multiplicación
+    multiplicaion = numero_1 * numero_2
+    print( "el resultado de multiplicar {} y {} es {} ".format(numero_1 , numero_2, multiplicaion))
 
 
 def ej3():
@@ -74,12 +82,16 @@ def ej3():
     apellido = str(input())
 
     # Imprima su nombre completo
+    print(nombre , apellido)
 
     # Almacenar su nombre completo en una variable
-    # nombre_completo = .....
+
+    nombre_completo = (nombre,apellido)
 
     # Imprimir la cantidad de letras que posee su nombre completo
 
+    cantidad = (len(nombre)+ len(apellido) )
+    print(cantidad)
 
 def ej4():
     # Ejemplos variables de texto
@@ -96,6 +108,10 @@ def ej4():
     palabra_3 = str(input())
 
     # De cada palabra debe tomar la primera letra y armar el acrónimo
+    acronimo = (palabra_1[0] + palabra_2[0] + palabra_3[0])
+    
+    print(acronimo)
+
     # Ejemplo: Alumbrado, barrido y limpieza --> ABL
     # Imprimir el resultado en pantalla
 
@@ -113,13 +129,17 @@ def ej5():
     # De la primera palabra tome las primeras tres letras, utilice el operador :
     # De la segunda palabra tome las últimas tres letras, utilice el operador :
     # Formar una nueva palabra con los recortes solicitados
+    nueva_palabra = (palabra_1[:3]+ palabra_2[-3:])
+
     # Imprima en pantalla los resultados
+    print(nueva_palabra)
+
 
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     ej1()
-    # ej2()
-    # ej3()
-    # ej4()
-    # ej5()
+    ej2()
+    ej3()
+    ej4()
+    ej5()
