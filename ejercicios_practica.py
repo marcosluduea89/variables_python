@@ -3,7 +3,7 @@
 Tipos de variables [Python]
 Ejercicios de práctica
 ---------------------------
-Autor: Inove Coding School
+Autor: Ludueña Marcos
 Version: 1.5
 
 Descripcion:
@@ -11,7 +11,7 @@ Programa creado para poner a prueba los conocimientos
 adquiridos durante la clase
 '''
 
-__author__ = "Inove Coding School"
+__author__ = "Ludueña Marcos"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.5"
 
