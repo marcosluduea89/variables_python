@@ -63,7 +63,7 @@ def ej2():
     
     # División
     division = numero_1 / numero_2
-    print("el resultado de restasr {} y {} es {} ".format(numero_1 , numero_2, division))
+    print("el resultado de dividir {} y {} es {} ".format(numero_1 , numero_2, division))
 
     # Multiplicación
     multiplicaion = numero_1 * numero_2
